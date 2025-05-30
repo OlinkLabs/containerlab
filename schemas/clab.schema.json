@@ -91,7 +91,9 @@
                         "generic_vm",
                         "fortinet_fortigate",
                         "k8s-kind",
-                        "fdio_vpp"
+                        "fdio_vpp",
+                        "cisco_basic_router",
+                        "cisco_basic_switch"
                     ]
                 },
                 "license": {
@@ -1223,6 +1225,12 @@
                             "$ref": "#/definitions/node-config"
                         },
                         "fdio_vpp": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_cisco_basic_router": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_cisco_basic_switch": {
                             "$ref": "#/definitions/node-config"
                         }
                     },
