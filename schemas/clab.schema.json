@@ -96,6 +96,7 @@
                         "tpl_cisco_basic_switch",
                         "tpl_linux",
                         "tpl_alpine_linux",
+                        "tpl_testing",
                         "tpl_paloalto_panos",
                         "tpl_fortinet_fortigate"
                     ]
@@ -1241,6 +1242,9 @@
                             "$ref": "#/definitions/node-config"
                         },
                         "tpl_alpine_linux": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_testing": {
                             "$ref": "#/definitions/node-config"
                         },
                         "tpl_paloalto_panos": {

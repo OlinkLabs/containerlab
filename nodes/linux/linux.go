@@ -24,7 +24,7 @@ const (
 	generateIfFormat = "eth%d"
 )
 
-var kindnames = []string{"linux", "tpl_linux", "tpl_alpine_linux"}
+var kindnames = []string{"linux", "tpl_linux", "tpl_alpine_linux", "tpl_testing"}
 
 // Register registers the node in the NodeRegistry.
 func Register(r *nodes.NodeRegistry) {
