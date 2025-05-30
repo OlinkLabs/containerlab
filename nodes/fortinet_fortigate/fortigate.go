@@ -16,7 +16,7 @@ import (
 )
 
 var (
-	kindnames          = []string{"fortinet_fortigate"}
+	kindnames          = []string{"fortinet_fortigate", "tpl_fortinet_fortigate"}}
 	defaultCredentials = nodes.NewCredentials("admin", "admin")
 
 	InterfaceRegexp = regexp.MustCompile(`port(?P<port>\d+)$`)

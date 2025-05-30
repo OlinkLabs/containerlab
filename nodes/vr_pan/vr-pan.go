@@ -16,7 +16,7 @@ import (
 )
 
 var (
-	kindnames          = []string{"paloalto_panos", "vr-pan", "vr-paloalto_panos"}
+	kindnames          = []string{"paloalto_panos", "vr-pan", "vr-paloalto_panos", "tpl_paloalto_panos"}
 	defaultCredentials = nodes.NewCredentials("admin", "Admin@123")
 
 	InterfaceRegexp = regexp.MustCompile(`Ethernet1/(?P<port>\d+)`)

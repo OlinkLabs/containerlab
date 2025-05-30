@@ -93,7 +93,11 @@
                         "k8s-kind",
                         "fdio_vpp",
                         "cisco_basic_router",
-                        "cisco_basic_switch"
+                        "cisco_basic_switch",
+                        "tpl_linux",
+                        "tpl_alpine_linux",
+                        "tpl_paloalto_panos",
+                        "tpl_fortinet_fortigate"
                     ]
                 },
                 "license": {
@@ -1231,6 +1235,18 @@
                             "$ref": "#/definitions/node-config"
                         },
                         "tpl_cisco_basic_switch": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_linux": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_alpine_linux": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_paloalto_panos": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_fortinet_fortigate": {
                             "$ref": "#/definitions/node-config"
                         }
                     },
